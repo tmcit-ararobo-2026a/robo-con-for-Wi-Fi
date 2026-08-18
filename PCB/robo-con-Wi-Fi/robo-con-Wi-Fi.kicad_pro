@@ -198,6 +198,8 @@
         0.3,
         0.4,
         0.5,
+        0.7,
+        0.8,
         1.25
       ],
       "tuning_pattern_settings": {
@@ -238,10 +240,6 @@
         {
           "diameter": 0.7,
           "drill": 0.5
-        },
-        {
-          "diameter": 3.0,
-          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -709,7 +707,7 @@
         "uuid": "e2cc1688-9d9f-412d-8b76-54554fdb9928"
       }
     ],
-    "used_designators": "#PWR1-4,#PWR6-7,#PWR10-28,#PWR116-120,#PWR123-124,#PWR129-150,C86-87",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
