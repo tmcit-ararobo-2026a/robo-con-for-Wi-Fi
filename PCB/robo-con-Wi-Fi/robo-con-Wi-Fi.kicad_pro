@@ -201,6 +201,7 @@
         0.35,
         0.4,
         0.5,
+        0.6,
         0.7,
         0.8,
         1.0,
@@ -248,6 +249,10 @@
         {
           "diameter": 0.7,
           "drill": 0.5
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.7
         }
       ],
       "zones_allow_external_fillets": false
@@ -715,7 +720,7 @@
         "uuid": "e2cc1688-9d9f-412d-8b76-54554fdb9928"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R5,R8,R35-36,R44,#PWR37,#PWR159,D16-17",
     "variants": []
   },
   "sheets": [
