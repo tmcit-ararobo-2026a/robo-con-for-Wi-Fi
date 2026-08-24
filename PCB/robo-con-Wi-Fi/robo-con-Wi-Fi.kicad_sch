@@ -11288,7 +11288,7 @@
 		(uuid "1228fba7-f719-4f27-8ce4-3f12cd6bf3aa")
 	)
 	(rectangle
-		(start 158.75 297.18)
+		(start 158.75 290.83)
 		(end 276.86 349.25)
 		(stroke
 			(width 0)
@@ -11371,7 +11371,7 @@
 	)
 	(text "LiPo"
 		(exclude_from_sim no)
-		(at 169.418 303.022 0)
+		(at 169.672 297.18 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -11534,6 +11534,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "189a22a3-2b77-45ae-b795-288e82772d4a")
+	)
+	(junction
+		(at 238.76 307.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a3d3ecb-d996-4835-8e0c-254d5445059f")
 	)
 	(junction
 		(at 474.98 55.88)
@@ -12076,6 +12082,12 @@
 		(uuid "d32fe140-f50d-4f9b-afe6-5ce9ff27cdeb")
 	)
 	(junction
+		(at 238.76 299.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3d27c29-2e4f-479e-85d2-7a9386e8acdb")
+	)
+	(junction
 		(at 516.89 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12140,12 +12152,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dedf3cbe-7bf0-4613-b38c-dafcdeedf831")
-	)
-	(junction
-		(at 248.92 307.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e030ae6f-b874-4538-b932-7fc33b2ea8b6")
 	)
 	(junction
 		(at 207.01 386.08)
@@ -12220,6 +12226,10 @@
 		(uuid "f9951597-a3f2-4eda-a6ce-dfa282b29a4d")
 	)
 	(no_connect
+		(at 73.66 153.67)
+		(uuid "0b1a4629-3432-4f0d-a4b5-0c710481929c")
+	)
+	(no_connect
 		(at 514.35 294.64)
 		(uuid "12472e04-b171-4d68-99f4-4ed262fe1ce4")
 	)
@@ -12234,6 +12244,10 @@
 	(no_connect
 		(at 73.66 125.73)
 		(uuid "1bb28056-b580-4623-beee-04e70c4c3eda")
+	)
+	(no_connect
+		(at 134.62 181.61)
+		(uuid "200d8fea-10ad-457c-8fb6-d89bf96fe19e")
 	)
 	(no_connect
 		(at 73.66 113.03)
@@ -12260,12 +12274,20 @@
 		(uuid "30728cde-5d09-4ab8-8321-582bb31c9e03")
 	)
 	(no_connect
+		(at 134.62 113.03)
+		(uuid "347f6971-3c80-4a2b-9f35-113e9865c44f")
+	)
+	(no_connect
 		(at 514.35 302.26)
 		(uuid "34ece7de-f444-4bd1-b29f-031224f0a849")
 	)
 	(no_connect
 		(at 514.35 283.21)
 		(uuid "37c28872-09e3-4e0c-95a9-001a7f9d4340")
+	)
+	(no_connect
+		(at 134.62 115.57)
+		(uuid "38831be0-6ee0-4bc8-94c5-c5eae5d60455")
 	)
 	(no_connect
 		(at 73.66 105.41)
@@ -12276,8 +12298,20 @@
 		(uuid "3efd1ab8-1421-4d97-9f02-93ee2a1a7c40")
 	)
 	(no_connect
+		(at 134.62 184.15)
+		(uuid "4cd8ebac-7278-43f5-8de1-08a0d55dd895")
+	)
+	(no_connect
+		(at 73.66 151.13)
+		(uuid "4d13ed9e-282d-426c-bd31-eb69f4a1cd95")
+	)
+	(no_connect
 		(at 514.35 285.75)
 		(uuid "50ddac8e-30b9-40f8-ac66-b303c47f9f56")
+	)
+	(no_connect
+		(at 134.62 110.49)
+		(uuid "55bbdce3-6486-4aef-bfb8-7a042ca6b141")
 	)
 	(no_connect
 		(at 514.35 327.66)
@@ -12290,6 +12324,10 @@
 	(no_connect
 		(at 514.35 288.29)
 		(uuid "6af24509-26f7-4c40-b38d-aaa288eb4234")
+	)
+	(no_connect
+		(at 134.62 179.07)
+		(uuid "6eaa5df2-cbe1-4c48-bb48-06e511bdc0d4")
 	)
 	(no_connect
 		(at 458.47 302.26)
@@ -12306,6 +12344,14 @@
 	(no_connect
 		(at 514.35 265.43)
 		(uuid "82dfb8cd-c7cd-49d1-8bb5-4e6c0f71860d")
+	)
+	(no_connect
+		(at 73.66 156.21)
+		(uuid "87d11567-5bb7-4b17-a810-8ef0db62fb55")
+	)
+	(no_connect
+		(at 73.66 85.09)
+		(uuid "8bef300d-4a36-4177-ae71-c0484e65c725")
 	)
 	(no_connect
 		(at 134.62 125.73)
@@ -12344,8 +12390,20 @@
 		(uuid "a5c55b2e-1850-4bda-a76e-70b4c1179063")
 	)
 	(no_connect
+		(at 73.66 148.59)
+		(uuid "a9c7d4d0-0e8f-40bc-ba3a-3441038d8b93")
+	)
+	(no_connect
 		(at 134.62 85.09)
 		(uuid "b2230921-6be8-4428-85a6-60fd095d45b8")
+	)
+	(no_connect
+		(at 73.66 82.55)
+		(uuid "c446a856-40cd-4a75-b033-00a80d144356")
+	)
+	(no_connect
+		(at 73.66 146.05)
+		(uuid "cd348318-b6fc-45f0-b616-72da021a6ab2")
 	)
 	(no_connect
 		(at 514.35 297.18)
@@ -12630,6 +12688,16 @@
 			(type default)
 		)
 		(uuid "0feb6d28-9048-43c0-ae34-a91fcb7462bf")
+	)
+	(wire
+		(pts
+			(xy 238.76 299.72) (xy 238.76 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101493cf-88d5-4fa5-80a6-68394ee14dab")
 	)
 	(wire
 		(pts
@@ -13513,7 +13581,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 307.34) (xy 250.19 307.34)
+			(xy 234.95 299.72) (xy 238.76 299.72)
 		)
 		(stroke
 			(width 0)
@@ -13853,16 +13921,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 303.53) (xy 248.92 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ded954d-ba8f-4aca-948d-f4e042e1ac02")
-	)
-	(wire
-		(pts
 			(xy 109.22 41.91) (xy 106.68 41.91)
 		)
 		(stroke
@@ -14040,6 +14098,16 @@
 			(type default)
 		)
 		(uuid "646e27c1-835e-4128-a4ed-59d521c8ed36")
+	)
+	(wire
+		(pts
+			(xy 238.76 306.07) (xy 238.76 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658b0c13-d94d-4940-bf39-0e057dac53ea")
 	)
 	(wire
 		(pts
@@ -15253,16 +15321,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 303.53) (xy 248.92 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aec7bdbd-7fcc-4ff2-b288-ece3d425151b")
-	)
-	(wire
-		(pts
 			(xy 44.45 372.11) (xy 45.72 372.11)
 		)
 		(stroke
@@ -15603,6 +15661,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 299.72) (xy 252.73 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62c59a3-cccc-4f51-916b-32a2ac5eb693")
+	)
+	(wire
+		(pts
 			(xy 561.34 102.87) (xy 561.34 101.6)
 		)
 		(stroke
@@ -15680,16 +15748,6 @@
 			(type default)
 		)
 		(uuid "c9b51fb0-152e-4f39-a3f6-c6dd3f0b13db")
-	)
-	(wire
-		(pts
-			(xy 247.65 307.34) (xy 248.92 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9f0939c-c705-4585-b2b4-6b9204f56665")
 	)
 	(wire
 		(pts
@@ -15940,6 +15998,16 @@
 			(type default)
 		)
 		(uuid "d96bc458-65c1-46ef-9e4f-991e3962c4df")
+	)
+	(wire
+		(pts
+			(xy 237.49 307.34) (xy 238.76 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8d232c-f0bb-4af1-ad86-1a52c2a6127b")
 	)
 	(wire
 		(pts
@@ -16400,6 +16468,16 @@
 			(type default)
 		)
 		(uuid "f4c5529a-4f45-4eeb-bd36-b8ed1144e14a")
+	)
+	(wire
+		(pts
+			(xy 238.76 307.34) (xy 238.76 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4dbff57-8b2a-4403-8c50-bb1666596339")
 	)
 	(wire
 		(pts
@@ -18667,17 +18745,17 @@
 	)
 	(global_label "LiPo_Observer"
 		(shape input)
-		(at 250.19 303.53 0)
+		(at 237.49 307.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a1f67dbd-5bbd-4ce6-9e53-655cb40de3e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.4195 303.53 0)
+			(at 221.2605 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18685,7 +18763,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -24344,7 +24422,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 255.27 307.34 0)
+		(at 257.81 299.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24355,7 +24433,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d8593fe-75c1-445c-ba3c-e17e821b4eb8")
 		(property "Reference" "J5"
-			(at 257.81 307.3399 0)
+			(at 260.35 299.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24366,7 +24444,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 257.81 309.8799 0)
+			(at 260.35 302.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24377,7 +24455,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 255.27 307.34 0)
+			(at 257.81 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24388,7 +24466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 307.34 0)
+			(at 257.81 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24399,7 +24477,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 307.34 0)
+			(at 257.81 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27666,6 +27744,88 @@
 			(project "robo-con-Wi-Fi"
 				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 238.76 311.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bc35a6d-0b78-4742-8ca2-4732dd9ac9f7")
+		(property "Reference" "R26"
+			(at 241.3 309.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 241.3 312.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 238.76 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 238.76 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fdef993e-5ce0-4ef0-a2cd-2d2689eac450")
+		)
+		(pin "1"
+			(uuid "cba29913-6f9f-4b17-9c88-02f7bcf16e01")
+		)
+		(instances
+			(project "robo-con-Wi-Fi"
+				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -31113,7 +31273,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 242.57 307.34 90)
+		(at 229.87 299.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31124,7 +31284,7 @@
 		(fields_autoplaced yes)
 		(uuid "7db27902-85d0-4b34-95a3-eca1bc9fc48d")
 		(property "Reference" "#PWR04"
-			(at 246.38 307.34 0)
+			(at 233.68 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31135,7 +31295,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 238.76 307.3399 90)
+			(at 226.06 299.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31146,7 +31306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 307.34 0)
+			(at 229.87 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31157,7 +31317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 307.34 0)
+			(at 229.87 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31168,7 +31328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 242.57 307.34 0)
+			(at 229.87 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36517,7 +36677,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 250.19 309.88 270)
+		(at 252.73 302.26 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -36529,7 +36689,7 @@
 		(fields_autoplaced yes)
 		(uuid "cce9c037-4a60-48af-9097-f437b3153c95")
 		(property "Reference" "#PWR0133"
-			(at 243.84 309.88 0)
+			(at 246.38 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36540,7 +36700,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 309.8799 90)
+			(at 248.92 302.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36551,7 +36711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 309.88 0)
+			(at 252.73 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36562,7 +36722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 309.88 0)
+			(at 252.73 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36573,7 +36733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 309.88 0)
+			(at 252.73 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36830,6 +36990,85 @@
 			(project "robo-con-Wi-Fi"
 				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 313.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf6ab5b8-5ac6-4ad8-a0c4-2c147d2742d6")
+		(property "Reference" "#PWR0160"
+			(at 238.76 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 317.9885 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c65bffc4-f2da-4e69-974f-18e3f076feb9")
+		)
+		(instances
+			(project "robo-con-Wi-Fi"
+				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -37290,7 +37529,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 245.11 307.34 180)
+		(at 232.41 299.72 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37301,7 +37540,7 @@
 		(fields_autoplaced yes)
 		(uuid "d75a053a-ae93-4031-ab6e-108882414fee")
 		(property "Reference" "F1"
-			(at 245.11 302.26 0)
+			(at 232.41 294.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37311,7 +37550,7 @@
 			)
 		)
 		(property "Value" "box"
-			(at 245.11 304.8 0)
+			(at 232.41 297.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37321,7 +37560,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 245.11 307.34 0)
+			(at 232.41 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37332,7 +37571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 307.34 0)
+			(at 232.41 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37343,7 +37582,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 245.11 307.34 0)
+			(at 232.41 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39978,6 +40217,88 @@
 			(project "robo-con-Wi-Fi"
 				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
 					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 238.76 303.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7c600d-99a2-4ec7-9bad-06a7c1182b6a")
+		(property "Reference" "R27"
+			(at 241.3 302.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 241.3 304.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 238.76 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 238.76 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "267d7818-ba3d-4083-ac5d-e66bbf14baba")
+		)
+		(pin "1"
+			(uuid "b21e6de7-aa85-4c0a-ae4d-d80a8fd82937")
+		)
+		(instances
+			(project "robo-con-Wi-Fi"
+				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
+					(reference "R27")
 					(unit 1)
 				)
 			)
