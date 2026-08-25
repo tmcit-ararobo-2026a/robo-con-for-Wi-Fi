@@ -1,0 +1,3055 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-25T21:19:31",
+    "ignored_checks": [
+        {
+            "description": "Board edge clearance violation",
+            "key": "copper_edge_clearance"
+        },
+        {
+            "description": "Annular width",
+            "key": "annular_width"
+        },
+        {
+            "description": "Courtyards overlap",
+            "key": "courtyards_overlap"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "key": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "key": "silk_over_copper"
+        },
+        {
+            "description": "Padstack is questionable",
+            "key": "padstack"
+        },
+        {
+            "description": "NPTH inside courtyard",
+            "key": "npth_inside_courtyard"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint doesn't match copy in library",
+            "key": "lib_footprint_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "robo-con-Wi-Fi.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [+3.3V] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 210.7,
+                        "y": 32.04
+                    },
+                    "uuid": "1d53f325-53f8-47e3-a4d1-048722345177"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [+3.3V] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 136.96,
+                        "y": 25.56
+                    },
+                    "uuid": "6b745a45-4aa7-4c42-b433-6a4089cf3e3f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [+3.3V] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 210.53,
+                        "y": 25.28
+                    },
+                    "uuid": "724d9c6d-dae6-44b5-94b2-fd608264a5a0"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [+3.3V] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 135.98,
+                        "y": 33.42
+                    },
+                    "uuid": "9f6a4d23-097e-49e5-9656-f3bca27ee2f3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 188.09,
+                        "y": 73.19
+                    },
+                    "uuid": "0155d3cb-e38d-4cae-821a-d5c05360d66e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 133.04,
+                        "y": 39.04
+                    },
+                    "uuid": "01abd0a7-fe44-4fbe-8709-c73a1c60bd93"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 147.625,
+                        "y": 55.8
+                    },
+                    "uuid": "01ade25d-298f-4317-9044-31644f792ef7"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 136.68,
+                        "y": 54.21
+                    },
+                    "uuid": "01faf0b3-4a43-45db-8eea-a0bc98664cb4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 185.525001,
+                        "y": 66.017537
+                    },
+                    "uuid": "0248da98-571c-47ac-9b42-c6f69cfa36b9"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 165.426395,
+                        "y": 63.96
+                    },
+                    "uuid": "02d7bd58-3434-4e2d-b89c-35028357f18e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 155.388249,
+                        "y": 55.680001
+                    },
+                    "uuid": "03afe4b0-fd5e-4f2d-b0de-b7b9f9f86ffb"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 137.265194,
+                        "y": 68.178796
+                    },
+                    "uuid": "03c3114b-5fea-44e2-9e6d-c4f25562c201"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 166.35,
+                        "y": 51.23
+                    },
+                    "uuid": "03e14802-ed90-4cd1-9188-a2525729f934"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 180.68,
+                        "y": 49.46
+                    },
+                    "uuid": "0406e094-9130-482e-98df-6e1599f5f3be"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 149.51,
+                        "y": 78.56
+                    },
+                    "uuid": "04430ad6-05fa-48d5-be17-20c98b13f377"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 199.64,
+                        "y": 49.73
+                    },
+                    "uuid": "04ee529c-f0be-4c43-8c79-ba7cd30793cc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 148.07,
+                        "y": 44.32
+                    },
+                    "uuid": "04f74073-6d73-425d-8fb6-56f5c3faf1ed"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 207.27,
+                        "y": 60.31
+                    },
+                    "uuid": "05a10051-abe3-43d0-acc8-1d80d1840166"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 162.26,
+                        "y": 51.44
+                    },
+                    "uuid": "07828356-3432-456a-a0a3-efc22a6cb11b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 149.175,
+                        "y": 55.73
+                    },
+                    "uuid": "07c85776-5cac-4a9b-bf03-febd934aa572"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 131.13,
+                        "y": 69.09
+                    },
+                    "uuid": "07e34d9e-56ae-43e9-9827-1596ccb698e9"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 202.34,
+                        "y": 37.81
+                    },
+                    "uuid": "08482aae-23c8-47b5-b731-0e295445e3f6"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 137.35,
+                        "y": 33.56
+                    },
+                    "uuid": "0966a515-3c0d-4789-bc60-3c12205f844c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 184.92,
+                        "y": 79.06
+                    },
+                    "uuid": "09ba4eae-8486-4e3e-87b3-f6cc779d2068"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 147.355587,
+                        "y": 83.504784
+                    },
+                    "uuid": "0a406921-20b6-472b-8114-839cd17b4460"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 204.97,
+                        "y": 31.22
+                    },
+                    "uuid": "0ab0288c-e622-40c6-983d-571ca258df5a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 137.51,
+                        "y": 26.89
+                    },
+                    "uuid": "0ac4135c-a9b3-4c18-b715-646cc85ebda6"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 209.13,
+                        "y": 64.35
+                    },
+                    "uuid": "0b760fbb-b274-4061-b617-6f5a979ac6f4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 176.25,
+                        "y": 67.3
+                    },
+                    "uuid": "0bd8a573-8597-4bb9-85b6-6ccefcf09b90"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 210.09,
+                        "y": 40.13
+                    },
+                    "uuid": "0c8c8e3b-7b79-46ad-9209-2f82a0c3d730"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 174.71,
+                        "y": 87.96
+                    },
+                    "uuid": "0d01571c-dc98-4433-b9fd-2d198b41cf0b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 166.995,
+                        "y": 69.96
+                    },
+                    "uuid": "0d87ba07-dc0f-4d2a-80a9-7dec8348c4ed"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 154.664937,
+                        "y": 57.9
+                    },
+                    "uuid": "0d8d909a-e6ee-4c9e-a47c-470fb4d573ba"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 166.814558,
+                        "y": 64.650956
+                    },
+                    "uuid": "0f7818ed-3884-4d25-a834-9f6fa1dd39bb"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 183.78,
+                        "y": 49.81
+                    },
+                    "uuid": "0f925f7e-c6b6-4fe5-8829-3f7b2226242b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 182.25,
+                        "y": 75.35
+                    },
+                    "uuid": "107842ec-4c4c-49d3-9851-b9163ede87cd"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 179.533693,
+                        "y": 63.609298
+                    },
+                    "uuid": "10be1358-c02e-48e0-b410-7ab5363042cf"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 207.87,
+                        "y": 43.15
+                    },
+                    "uuid": "1224e1ee-8c03-4d4c-b333-d7c77801774e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 135.455,
+                        "y": 57.098199
+                    },
+                    "uuid": "12d5f4ba-8542-4540-a297-0bd67748cf52"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 163.44,
+                        "y": 51.97
+                    },
+                    "uuid": "12d8bbe4-6856-44b8-b9a0-062993213e9d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 209.11,
+                        "y": 66.98
+                    },
+                    "uuid": "13000ee8-5093-4d14-894d-284a3c8d0de4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 160.038248,
+                        "y": 75.98
+                    },
+                    "uuid": "14008875-8e57-49ba-8984-082459ee721f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 160.803385,
+                        "y": 75.28
+                    },
+                    "uuid": "14c5697f-267d-4cfc-9e6b-aeaf0cc778a0"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 128.32,
+                        "y": 44.2
+                    },
+                    "uuid": "150b6bac-f184-42f6-8afe-9c8d771f03b8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 156.892,
+                        "y": 40.95
+                    },
+                    "uuid": "151a99ab-f47b-4524-9b33-8fa952252e63"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 188.885,
+                        "y": 62.21
+                    },
+                    "uuid": "15cc34a0-9daa-4efb-b7d5-37a40cd0f0a8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 182.36,
+                        "y": 76.585
+                    },
+                    "uuid": "173d212a-6135-4d17-89ba-3dd853791712"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 140.98,
+                        "y": 45.01
+                    },
+                    "uuid": "17c4e20a-4707-4512-9ee6-2ba672174ec4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 189.2,
+                        "y": 50.08
+                    },
+                    "uuid": "17ea8da4-d281-4cf0-a0a6-0b2564a9726d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 182.72,
+                        "y": 55.83
+                    },
+                    "uuid": "180c7cc4-5c7d-42e1-987b-419c0c7b8b6e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 193.23,
+                        "y": 78.59
+                    },
+                    "uuid": "1928edbf-e1d5-449c-88fb-54690c894f4e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 200.69,
+                        "y": 34.71
+                    },
+                    "uuid": "19428ab5-e3ba-4cfd-96eb-d6933e00fde0"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 134.748919,
+                        "y": 31.559329
+                    },
+                    "uuid": "1af91dc4-fff8-4018-a3bd-5e543ebe4472"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 139.04,
+                        "y": 73.01
+                    },
+                    "uuid": "1d82537d-10ff-4c89-8b38-19395f88ca4e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 206.5,
+                        "y": 25.73
+                    },
+                    "uuid": "1dc66d59-8b59-440a-810e-e0cd95cd49b1"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 181.0575,
+                        "y": 41.03
+                    },
+                    "uuid": "1debe1e4-9087-4dbe-8c8d-8b3c728731ba"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 195.2,
+                        "y": 59.26
+                    },
+                    "uuid": "2013b1a9-0d61-4cf1-b40a-45659d01dc89"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 189.725,
+                        "y": 84.29
+                    },
+                    "uuid": "205b2ce2-f9cb-4dab-af25-3e1413960f03"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 201.3,
+                        "y": 43.64
+                    },
+                    "uuid": "21989761-40ef-4ac9-aeb8-d4ea1480f604"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 160.3,
+                        "y": 69.665
+                    },
+                    "uuid": "219ed709-fc07-4c99-b882-fc0ce86547a3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 132.677752,
+                        "y": 47.632248
+                    },
+                    "uuid": "233a3eb5-82c1-4e03-978e-478b043a3861"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 167.750001,
+                        "y": 65.565344
+                    },
+                    "uuid": "238c70f7-5712-411b-a2f6-d8f2acf56705"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 129.77,
+                        "y": 36.49
+                    },
+                    "uuid": "23d4ae31-7f4f-429c-a1c7-17aee7eb931f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 162.924263,
+                        "y": 55.246239
+                    },
+                    "uuid": "246e35a9-9278-47f1-8a90-41950415bb55"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 203.43,
+                        "y": 58.54
+                    },
+                    "uuid": "25946f12-0a9a-4143-94be-b5582e1bd8d8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 205.69,
+                        "y": 69.12
+                    },
+                    "uuid": "2666579c-e18d-475b-947e-a5e354e7556b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 135.34,
+                        "y": 32.6
+                    },
+                    "uuid": "26c40b0f-6511-4b6c-8bdf-426175fcadad"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 174.93,
+                        "y": 45.04
+                    },
+                    "uuid": "26eae1c2-d55c-410e-b667-56e152622d15"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 178.894949,
+                        "y": 66.30745
+                    },
+                    "uuid": "2797c4d7-45e5-4184-b014-02b0a2e90a76"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 163.86,
+                        "y": 46.15
+                    },
+                    "uuid": "27b6ebf5-d700-4071-96ef-529b655d8c24"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 131.18,
+                        "y": 72.46
+                    },
+                    "uuid": "27d7bb13-0eb5-4e6c-b618-ac573dd4e59d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 152.374998,
+                        "y": 56.386396
+                    },
+                    "uuid": "285bafc6-7356-4e74-ab92-e8bbd2dabee5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 157.56,
+                        "y": 46.72
+                    },
+                    "uuid": "28b10fce-5a18-4d82-aba2-eb1f51ed336c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 185.5,
+                        "y": 71.08
+                    },
+                    "uuid": "2926b4f3-f1c7-442c-8398-5aafb5578131"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 164.27455,
+                        "y": 74.026724
+                    },
+                    "uuid": "29801b68-e1e3-49df-a471-deecf5d0e156"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 173.06,
+                        "y": 45.05
+                    },
+                    "uuid": "29d11a99-ce59-47dc-8c7d-ee39aee18263"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 155.376986,
+                        "y": 45.465
+                    },
+                    "uuid": "2a97f7d3-8b7d-4e59-a037-39ce19b320b3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 178.28,
+                        "y": 46.31
+                    },
+                    "uuid": "2b39c0d2-6649-4e99-8389-13ec96bd7419"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 150.37,
+                        "y": 85.67
+                    },
+                    "uuid": "2b662bf2-09f4-4cbf-aa1e-9092179d8a66"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 156.48,
+                        "y": 77.79
+                    },
+                    "uuid": "2ca5a1c3-7fe7-4e04-92ac-27e5557103fc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 141.19,
+                        "y": 88.41
+                    },
+                    "uuid": "2cf7190d-ff0a-4330-822b-12cc10cedb2b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 132.88,
+                        "y": 35.06
+                    },
+                    "uuid": "2cf8628b-83a9-48bc-8b16-317b2c0cdd7f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 204.96,
+                        "y": 86.97
+                    },
+                    "uuid": "2d428d01-16ae-4b27-ad07-08dd460b0e42"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 168.85,
+                        "y": 52.91
+                    },
+                    "uuid": "2e8787f6-7be0-4e60-ad4f-eb7fb7ee285b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 148.21,
+                        "y": 73.76
+                    },
+                    "uuid": "2f107bd3-8ea7-4bc6-976b-38e18f2f1a6c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 165.17,
+                        "y": 52.77
+                    },
+                    "uuid": "306de75f-f881-4aa4-9da9-17fd87dc651b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 148.824,
+                        "y": 40.95
+                    },
+                    "uuid": "309080aa-ee3b-4979-9bec-dd1215860507"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 174.238783,
+                        "y": 57.095002
+                    },
+                    "uuid": "30b38704-2d54-4adf-982a-2a249ac398a6"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 168.57,
+                        "y": 57.75
+                    },
+                    "uuid": "32842a7e-c58a-49db-82d9-e5c07f4d41fe"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 184.262358,
+                        "y": 64.703178
+                    },
+                    "uuid": "328573b3-9779-49a9-b13c-5f9556024560"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 182.747528,
+                        "y": 60.527191
+                    },
+                    "uuid": "32c0280e-1857-4de9-82eb-fcf9318749a0"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 160.673605,
+                        "y": 76.73
+                    },
+                    "uuid": "35745896-05f1-457e-b40e-e0a2d10295f2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 180.18,
+                        "y": 62.01
+                    },
+                    "uuid": "362bd353-80ae-4a41-a5f4-79c2cac0dcae"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 191.01,
+                        "y": 57.16
+                    },
+                    "uuid": "363b4992-3585-4b3f-a55f-c161a18e7ff2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 149.82,
+                        "y": 57.44
+                    },
+                    "uuid": "37352bee-a8fe-4bc2-9fd6-33407cc26886"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 201.44,
+                        "y": 47.29
+                    },
+                    "uuid": "3776a21d-e9c0-440f-9f78-dad35ea0b1f8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 161.21,
+                        "y": 46.19
+                    },
+                    "uuid": "3779baca-48b0-4622-98a3-18370f086222"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 148.062104,
+                        "y": 51.456445
+                    },
+                    "uuid": "37994b43-cc2b-47dc-a271-49705f299971"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 144.878249,
+                        "y": 51.499999
+                    },
+                    "uuid": "38028137-97d7-49fc-bd99-d0c1447e44f6"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 156.310344,
+                        "y": 72.485
+                    },
+                    "uuid": "38173311-b827-49ca-a8b3-e30b1f51d49b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 206.99,
+                        "y": 64.36
+                    },
+                    "uuid": "38eeb423-570a-4fdb-82f8-5f893eef8e48"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 173.7,
+                        "y": 56.237824
+                    },
+                    "uuid": "39fe0d8b-be34-4093-883f-b252fa20cc36"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 180.941801,
+                        "y": 56.721801
+                    },
+                    "uuid": "3a436d7c-ee80-4c1c-9d3f-784817ec7537"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 188.94,
+                        "y": 66.26
+                    },
+                    "uuid": "3a83e770-707c-430d-8fc2-6c1bbc8bce7a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 174.6,
+                        "y": 58.22
+                    },
+                    "uuid": "3ac35b2a-9c52-4099-8afd-9879778c8a63"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 148.196587,
+                        "y": 82.999051
+                    },
+                    "uuid": "3af4b752-ced3-4b90-ad51-f8fd485f834b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 131.32,
+                        "y": 64.58
+                    },
+                    "uuid": "3c3712cb-eb46-4338-8ab3-c5993a81985f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 194.207729,
+                        "y": 54.974999
+                    },
+                    "uuid": "3d6653ed-e3d7-49f3-9d7d-ed2a0a414122"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 154.695,
+                        "y": 76.628631
+                    },
+                    "uuid": "3e9bcbed-9494-41ab-8e08-a49db1cfc579"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 147.925,
+                        "y": 81.143767
+                    },
+                    "uuid": "40002ab8-4d96-4e10-9e41-47755a3fa372"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 177.185699,
+                        "y": 58.274301
+                    },
+                    "uuid": "40cb486b-145c-4bc8-85f7-933c3ab1bb7f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 154.875,
+                        "y": 40.95
+                    },
+                    "uuid": "40ed7815-d28d-4b77-86fc-2be5d11f6f2c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 203.197157,
+                        "y": 36.725405
+                    },
+                    "uuid": "414dd757-fcd3-41e2-8a1b-cd4f48ebaeb0"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 172.34,
+                        "y": 46.1
+                    },
+                    "uuid": "4195cd0d-4f2c-4f1b-9b24-cf1986760769"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 184.108783,
+                        "y": 56.352677
+                    },
+                    "uuid": "42815f00-457f-4e89-976f-53939d7ad608"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 183.561192,
+                        "y": 57.152686
+                    },
+                    "uuid": "43052c4a-2dd2-4daa-b5bb-94df3043405a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 210.5,
+                        "y": 47.18
+                    },
+                    "uuid": "431d1c6c-3ffa-4fa0-8517-8d9e65971dff"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 173.52,
+                        "y": 61.35
+                    },
+                    "uuid": "43daba3a-22de-48b6-88d0-97e8d4356da1"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 179.636002,
+                        "y": 69.04129
+                    },
+                    "uuid": "4451bda0-6a17-4c73-a826-820708c60bce"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 199.41,
+                        "y": 55.24
+                    },
+                    "uuid": "45273b7a-c317-4a33-a04a-70796d72cc00"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 184.07,
+                        "y": 69.39
+                    },
+                    "uuid": "454bb765-7f97-4be8-8bd4-a53d8b1ef53a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 202.82,
+                        "y": 51.98
+                    },
+                    "uuid": "4579cabc-d3ec-4de3-ae90-185edf39f833"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 153.278376,
+                        "y": 44.285
+                    },
+                    "uuid": "45e83557-27d5-47cf-b677-53bd6884c59d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 183.89,
+                        "y": 67.36
+                    },
+                    "uuid": "45f2418d-f1df-4ed6-ae68-cc9d6f1195dc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 181.61,
+                        "y": 67.51
+                    },
+                    "uuid": "4620da1b-c931-4693-8fe2-9261cc9ddd23"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 136.98,
+                        "y": 49.15
+                    },
+                    "uuid": "4665e3ff-941a-40c1-890d-d37bc4227e47"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 187.66,
+                        "y": 52.08
+                    },
+                    "uuid": "477c0e82-15c9-43c3-a307-bb6d3f81bc07"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 187.09,
+                        "y": 54.87
+                    },
+                    "uuid": "47a2d919-03b7-4439-8019-a4a8306201df"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 201.23,
+                        "y": 81.63
+                    },
+                    "uuid": "489aabad-41f2-4527-87cd-7253475eb6a6"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 168.36,
+                        "y": 56.3
+                    },
+                    "uuid": "48eec3c6-04a0-45f0-86ee-d4352acf54d2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 150.841,
+                        "y": 40.95
+                    },
+                    "uuid": "4a546fa9-1f46-4e10-a7c5-ec6b88c39b37"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 193.68,
+                        "y": 46.54
+                    },
+                    "uuid": "4b470df3-7b62-4bf3-b38d-8f0b63e38fef"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 159.1,
+                        "y": 52.77
+                    },
+                    "uuid": "4b6c97cd-711a-4826-9efb-69e34b5acebc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 128.43,
+                        "y": 48.97
+                    },
+                    "uuid": "4cbfde84-7587-4194-b8d1-6975cd9619dc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 192.06,
+                        "y": 74.79
+                    },
+                    "uuid": "4d7fa81f-6558-4d12-9f27-2533c32ce540"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 180.38,
+                        "y": 87.03
+                    },
+                    "uuid": "4da31dfc-4669-446f-bd2c-3ab00653ef62"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 203.15,
+                        "y": 50.64
+                    },
+                    "uuid": "4ea6d0b3-0082-4bb1-b352-3dcab1ad0dae"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 128.84,
+                        "y": 23.81
+                    },
+                    "uuid": "4efac4e3-db61-4565-9e4b-06d0746a3eac"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 131.39,
+                        "y": 25.85
+                    },
+                    "uuid": "4f0c7a88-78c0-4d8f-9f86-947c5d10a47e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 205.248199,
+                        "y": 51.798199
+                    },
+                    "uuid": "4ff34cc1-f421-4dd9-b690-06b12ccba1b6"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 209.495,
+                        "y": 32.618015
+                    },
+                    "uuid": "5116d66c-db9f-4c10-9062-41565a268d0f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 197.48,
+                        "y": 40.56
+                    },
+                    "uuid": "529f73fa-af5d-452a-af48-e5269495fda9"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 211.67,
+                        "y": 23.8
+                    },
+                    "uuid": "538f6af2-225f-4480-a065-417246b0374e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 212.36,
+                        "y": 48.79
+                    },
+                    "uuid": "53c50a6c-4197-45a5-b88a-55bfea795b64"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 150.48,
+                        "y": 47.475
+                    },
+                    "uuid": "5458f7aa-3ed0-47ec-a149-af88d0930eaf"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 166.94,
+                        "y": 45.03
+                    },
+                    "uuid": "54845f51-ee0d-4739-8721-52dab3ab6240"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 169.81,
+                        "y": 51.33
+                    },
+                    "uuid": "54fbbf49-cfaa-476b-be8f-c43c6a4f599b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 162.33005,
+                        "y": 56.58
+                    },
+                    "uuid": "55a9d329-b603-4a6d-8608-e0f14a4a9b66"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 183.728199,
+                        "y": 59.458199
+                    },
+                    "uuid": "575c4407-61f9-4c21-9c55-13138405b276"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 185.035,
+                        "y": 56.76
+                    },
+                    "uuid": "59651a2a-7247-4f6b-8597-e47e8388d2c8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 168.89,
+                        "y": 59.56
+                    },
+                    "uuid": "59bc0ed4-f761-49d0-b0e4-573ed026e3a4"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 139.89,
+                        "y": 67.52
+                    },
+                    "uuid": "5addd137-b88d-402a-943c-f1155b478853"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 174.36,
+                        "y": 49.68
+                    },
+                    "uuid": "5b0b2d15-fe3e-4431-ac3b-da0c6bfe520d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 181.45,
+                        "y": 57.63255
+                    },
+                    "uuid": "5b4b3daf-2ca8-44c4-9aba-e09476ad2fe7"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 136.09,
+                        "y": 82.25
+                    },
+                    "uuid": "5c2b8602-a8eb-4269-9dde-cad71455797b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 156.451701,
+                        "y": 60.92
+                    },
+                    "uuid": "5c8c381e-f987-4c0d-b30a-7749689465af"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 178.04,
+                        "y": 84.93
+                    },
+                    "uuid": "5e25b4fc-73fd-44b2-9c87-f6bd2e1109d0"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 172.096232,
+                        "y": 59.413768
+                    },
+                    "uuid": "5e8fe3bd-c54f-48dc-b1fd-2193749e2a54"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 180.55,
+                        "y": 58.15
+                    },
+                    "uuid": "5e905af3-c59e-47a0-a0b2-55498f036441"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 184.008028,
+                        "y": 75.15
+                    },
+                    "uuid": "5ed58da7-5beb-43ad-b7b0-873bfdc5ffb5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 174.07,
+                        "y": 67.29
+                    },
+                    "uuid": "5f0ee607-cf2c-455d-a3a3-999ce0e9e2f9"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 156.499075,
+                        "y": 79.667323
+                    },
+                    "uuid": "60c9ac40-94f1-4f94-888c-4503381e0b62"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 210.44,
+                        "y": 43.34
+                    },
+                    "uuid": "6149a115-5770-4c8c-bdac-3cbfc660cdd5"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 200.5,
+                        "y": 71.41
+                    },
+                    "uuid": "617a03a3-a9e8-4463-9f3e-37bf10caacfc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 191.175,
+                        "y": 64.575
+                    },
+                    "uuid": "62df10da-7e16-42fb-8ac8-868d0687b308"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 138.45,
+                        "y": 85.89
+                    },
+                    "uuid": "6356597a-ccaa-4329-8ad3-c7889a7a66e0"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 173.275001,
+                        "y": 66.558604
+                    },
+                    "uuid": "63f4c896-061d-4886-b8b4-be255899d53f"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 212.05,
+                        "y": 39.56
+                    },
+                    "uuid": "650e8194-e058-47ce-8c98-044d42d1eaf3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 155.91,
+                        "y": 75.68
+                    },
+                    "uuid": "6551b215-0794-44eb-bf9d-1b4fb662f417"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 144.94,
+                        "y": 84.05
+                    },
+                    "uuid": "658d6cf6-d5be-4cc8-a531-470dc43f162a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 195.16,
+                        "y": 68.22
+                    },
+                    "uuid": "664bb9e8-8a05-4172-ba1f-f367f13de99a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 142.85,
+                        "y": 81.74
+                    },
+                    "uuid": "66ffc6eb-b2fc-419c-b5cf-56648856580a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 161.35,
+                        "y": 50.66
+                    },
+                    "uuid": "689c38b4-fba8-487a-8236-acbec6999367"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 138.11,
+                        "y": 56.16
+                    },
+                    "uuid": "68b22eb6-a1ad-448d-ba10-5bb1551b172e"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 176.752594,
+                        "y": 71.924697
+                    },
+                    "uuid": "69164e36-b15b-4576-95b7-83ba9078cd39"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 176.54,
+                        "y": 53.85
+                    },
+                    "uuid": "69485dbe-ee16-497d-9658-1c8abee2c1d3"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 131.46,
+                        "y": 81.57
+                    },
+                    "uuid": "69c15dc1-eae0-49e9-a6c8-d70fa2b4969a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 208.24,
+                        "y": 28.52
+                    },
+                    "uuid": "6a388c1a-2c46-4321-a20e-05b82ee3457a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 202.48,
+                        "y": 78.87
+                    },
+                    "uuid": "6a8803fa-10d9-4aab-ac07-7a552330a5ba"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 137.26,
+                        "y": 79.1
+                    },
+                    "uuid": "6ab1c04a-fb4d-4c99-811c-e276f637eb92"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 160.53,
+                        "y": 49.88
+                    },
+                    "uuid": "6afca54e-f1e8-4d61-bc2e-f5503f94288c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 207.34,
+                        "y": 53.93
+                    },
+                    "uuid": "6b22d81c-5cd0-42e3-a60a-5b111eaa5cdf"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 145.74,
+                        "y": 71.35
+                    },
+                    "uuid": "6cc3bec0-9503-4e3a-bb91-97be6f7ec1e2"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 201.5,
+                        "y": 23.84
+                    },
+                    "uuid": "6dec5eec-3056-41d3-81e6-459fa1cc74fb"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 195.21,
+                        "y": 41.15
+                    },
+                    "uuid": "6f12a1a8-58f5-4fb4-9e05-a42e8f66f616"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 175.29,
+                        "y": 53.29
+                    },
+                    "uuid": "6f22e174-e295-4092-b339-dc5162066734"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 176.25,
+                        "y": 66.07
+                    },
+                    "uuid": "6f522cdb-9e87-4c3f-8990-2dd973bb1515"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 179.560725,
+                        "y": 60.347122
+                    },
+                    "uuid": "6f6a390d-cecd-47aa-9c93-58ad8c5ca13c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 183.795876,
+                        "y": 72.285876
+                    },
+                    "uuid": "6f9ee6cb-6ad9-4e57-80c2-e67be1496939"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 200.16,
+                        "y": 52.3
+                    },
+                    "uuid": "7074c3b4-9d5e-431a-8523-7a9e9f839a75"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 201.36,
+                        "y": 60.71
+                    },
+                    "uuid": "712ca999-c073-4130-a825-3f60852c9665"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 208.09,
+                        "y": 82.96
+                    },
+                    "uuid": "71caaca3-a5ef-431b-af43-8e41566d087d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 141.06,
+                        "y": 41.36
+                    },
+                    "uuid": "7231d20e-128f-4cad-b740-85b919caf364"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 134.09,
+                        "y": 78.86
+                    },
+                    "uuid": "7241145d-724b-4e96-8db0-cbd5c3247141"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 138.11,
+                        "y": 30.82
+                    },
+                    "uuid": "728e7183-1f8a-4bed-a5db-a358e677336d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 139.07,
+                        "y": 66.17
+                    },
+                    "uuid": "72cd1264-9b96-4f42-b8b3-35695c4a5ec8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 150.79049,
+                        "y": 54.925184
+                    },
+                    "uuid": "73082ad8-c075-4e73-95aa-d1392e896ba1"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 174.58,
+                        "y": 54.6
+                    },
+                    "uuid": "7332b63b-0521-437e-81a9-6fc0613e6cbc"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "穴サイズが許容範囲外 (基板の設定の制約 最小のホール 0.3000 mm; 現状 0.2500 mm)",
+            "items": [
+                {
+                    "description": "ビア [GND] (F.Cu - B.Cu 上)",
+                    "pos": {
+                        "x": 160.926,
+                        "y": 40.95
+                    },
+                    "uuid": "73568894-4b0e-495b-8796-d8abb590c18b"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        }
+    ]
+}
