@@ -1,8 +1,9 @@
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
-  * @file    stm32h7xx_it.h
-  * @brief   This file contains the headers of the interrupt handlers.
+  * @file    app_netxduo.h
+  * @author  MCD Application Team
+  * @brief   NetXDuo applicative header file
   ******************************************************************************
   * @attention
   *
@@ -16,16 +17,23 @@
   ******************************************************************************
   */
 /* USER CODE END Header */
-
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __STM32H7xx_IT_H
-#define __STM32H7xx_IT_H
+#ifndef __APP_NETXDUO_H__
+#define __APP_NETXDUO_H__
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
+/* USER CODE BEGIN 1 */
+
+/* USER CODE END 1 */
+
+/* Includes ------------------------------------------------------------------*/
+#include "nx_api.h"
+
 /* Private includes ----------------------------------------------------------*/
+
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */
@@ -46,24 +54,22 @@ extern "C" {
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/
-void NMI_Handler(void);
-void HardFault_Handler(void);
-void MemManage_Handler(void);
-void BusFault_Handler(void);
-void UsageFault_Handler(void);
-void DebugMon_Handler(void);
-void DMA1_Stream0_IRQHandler(void);
-void DMA1_Stream1_IRQHandler(void);
-void TIM1_UP_IRQHandler(void);
-void USART1_IRQHandler(void);
-void USART3_IRQHandler(void);
-void TIM6_DAC_IRQHandler(void);
+UINT MX_NetXDuo_Init(VOID *memory_ptr);
+
 /* USER CODE BEGIN EFP */
 
 /* USER CODE END EFP */
 
+/* Private defines -----------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+
+/* USER CODE END PD */
+
+/* USER CODE BEGIN 2 */
+
+/* USER CODE END 2 */
+
 #ifdef __cplusplus
 }
 #endif
-
-#endif /* __STM32H7xx_IT_H */
+#endif /* __APP_NETXDUO_H__ */

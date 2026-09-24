@@ -1,8 +1,9 @@
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
-  * @file    stm32h7xx_it.h
-  * @brief   This file contains the headers of the interrupt handlers.
+  * @file    app_azure_rtos_config.h
+  * @author  MCD Application Team
+  * @brief   azure_rtos config header file
   ******************************************************************************
   * @attention
   *
@@ -15,15 +16,21 @@
   *
   ******************************************************************************
   */
+
 /* USER CODE END Header */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __STM32H7xx_IT_H
-#define __STM32H7xx_IT_H
-
+#ifndef APP_AZURE_RTOS_CONFIG_H
+#define APP_AZURE_RTOS_CONFIG_H
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+/* USER CODE BEGIN 1 */
+
+/* USER CODE END 1 */
+
+/* Includes ------------------------------------------------------------------*/
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -36,6 +43,14 @@ extern "C" {
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
+/* Using static memory allocation via threadX Byte memory pools */
+
+#define USE_STATIC_ALLOCATION                    1
+
+#define TX_APP_MEM_POOL_SIZE                     1024
+
+#define NX_APP_MEM_POOL_SIZE                     12288
+
 /* USER CODE BEGIN EC */
 
 /* USER CODE END EC */
@@ -46,24 +61,21 @@ extern "C" {
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/
-void NMI_Handler(void);
-void HardFault_Handler(void);
-void MemManage_Handler(void);
-void BusFault_Handler(void);
-void UsageFault_Handler(void);
-void DebugMon_Handler(void);
-void DMA1_Stream0_IRQHandler(void);
-void DMA1_Stream1_IRQHandler(void);
-void TIM1_UP_IRQHandler(void);
-void USART1_IRQHandler(void);
-void USART3_IRQHandler(void);
-void TIM6_DAC_IRQHandler(void);
 /* USER CODE BEGIN EFP */
 
 /* USER CODE END EFP */
+
+/* Private defines -----------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+
+/* USER CODE END PD */
+
+/* USER CODE BEGIN 2 */
+
+/* USER CODE END 2 */
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* __STM32H7xx_IT_H */
+#endif /* APP_AZURE_RTOS_CONFIG_H */

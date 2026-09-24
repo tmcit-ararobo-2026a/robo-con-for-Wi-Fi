@@ -21,5 +21,6 @@
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
-    "C_Cpp.clang_format_style": "file"
+    "C_Cpp.clang_format_style": "file",
+    "cmake.sourceDirectory": "D:/document/2026_a/robo-con-for-Wi-Fi/robo-con-Wi-Fi-firmware"
 }
