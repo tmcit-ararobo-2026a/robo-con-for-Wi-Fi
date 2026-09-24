@@ -877,251 +877,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x05"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x05_1_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
@@ -11046,12 +10801,6 @@
 		(uuid "0b2eca72-889a-4fda-b450-d6f317393a64")
 	)
 	(junction
-		(at 134.62 313.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d24a895-13f0-481d-ba85-96da55935e18")
-	)
-	(junction
 		(at 414.02 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11262,12 +11011,6 @@
 		(uuid "5e1cc983-bd68-4ad8-85e4-05362a80466e")
 	)
 	(junction
-		(at 134.62 323.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "607dd471-bc7a-486e-b31e-88cc4912c5f4")
-	)
-	(junction
 		(at 408.94 288.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11332,12 +11075,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c3960b2-0fc5-459b-9996-22c0a5187049")
-	)
-	(junction
-		(at 194.31 331.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c83b101-af7c-4b51-8ecc-42e5c2db008e")
 	)
 	(junction
 		(at 127 50.8)
@@ -11502,12 +11239,6 @@
 		(uuid "bbf53cfa-54cf-46c0-971e-4616e42e7df9")
 	)
 	(junction
-		(at 133.35 331.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdc40b63-8b8e-4a37-8aaf-7e3f2a19c30f")
-	)
-	(junction
 		(at 92.71 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11566,18 +11297,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d31c11d0-c4c0-4076-84ca-cdf0d5141416")
-	)
-	(junction
-		(at 195.58 323.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3995249-19fe-4db7-b49f-d9e3f1df6c53")
-	)
-	(junction
-		(at 195.58 313.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d51f8b99-2ee5-4e9e-be6b-497a7e3e54da")
 	)
 	(junction
 		(at 397.51 92.71)
@@ -11810,16 +11529,6 @@
 	(no_connect
 		(at 525.78 260.35)
 		(uuid "edac37b8-1e70-4d11-835d-44e5397a3bc9")
-	)
-	(wire
-		(pts
-			(xy 133.35 331.47) (xy 133.35 332.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "003f349c-4139-4728-993c-ad59999e1575")
 	)
 	(wire
 		(pts
@@ -12153,16 +11862,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 323.85) (xy 184.15 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b202d26-454d-442f-8e6b-e0fb9d483dc0")
-	)
-	(wire
-		(pts
 			(xy 129.54 68.58) (xy 132.08 68.58)
 		)
 		(stroke
@@ -12370,16 +12069,6 @@
 			(type default)
 		)
 		(uuid "25cafda5-4c8d-49f0-832b-d0f3ce74b427")
-	)
-	(wire
-		(pts
-			(xy 195.58 313.69) (xy 184.15 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2716b435-1460-4d17-bcee-cfbe9c5f5317")
 	)
 	(wire
 		(pts
@@ -12623,16 +12312,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 323.85) (xy 134.62 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36440401-8afc-4437-a1af-f292643f01c9")
-	)
-	(wire
-		(pts
 			(xy 95.25 212.09) (xy 95.25 210.82)
 		)
 		(stroke
@@ -12640,16 +12319,6 @@
 			(type default)
 		)
 		(uuid "38e3f801-59eb-464b-88bc-6ccb037d0b7e")
-	)
-	(wire
-		(pts
-			(xy 137.16 313.69) (xy 134.62 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "396df774-844c-46d6-bb88-8194905e099c")
 	)
 	(wire
 		(pts
@@ -12750,16 +12419,6 @@
 			(type default)
 		)
 		(uuid "3cea3bb4-1ab0-4d19-92a2-f1685f2b1bc8")
-	)
-	(wire
-		(pts
-			(xy 194.31 331.47) (xy 194.31 332.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d218533-cca9-49af-9e66-83618d235c8b")
 	)
 	(wire
 		(pts
@@ -12943,26 +12602,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 331.47) (xy 195.58 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4da01233-5e31-4345-9fe6-04ed98304d35")
-	)
-	(wire
-		(pts
-			(xy 123.19 313.69) (xy 134.62 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4deb4573-fda8-4c9a-8b92-2c5a3dca4687")
-	)
-	(wire
-		(pts
 			(xy 416.56 104.14) (xy 416.56 105.41)
 		)
 		(stroke
@@ -13130,16 +12769,6 @@
 			(type default)
 		)
 		(uuid "584ccf93-9825-459d-be8a-9a4802915e34")
-	)
-	(wire
-		(pts
-			(xy 195.58 320.04) (xy 195.58 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5861204e-ee12-493f-aad7-da1ce2cf951c")
 	)
 	(wire
 		(pts
@@ -13563,26 +13192,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 331.47) (xy 134.62 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c76030f-2cac-4025-a6d0-365ea05aa912")
-	)
-	(wire
-		(pts
-			(xy 194.31 321.31) (xy 194.31 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc82f2c-3dfa-446f-acc7-276f375f4725")
-	)
-	(wire
-		(pts
 			(xy 495.3 214.63) (xy 495.3 236.22)
 		)
 		(stroke
@@ -13630,16 +13239,6 @@
 			(type default)
 		)
 		(uuid "714bb477-4c39-4d08-87cb-1c365ade1d00")
-	)
-	(wire
-		(pts
-			(xy 123.19 323.85) (xy 134.62 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "716dbb82-53d9-42e4-a0e3-44c8ae791db0")
 	)
 	(wire
 		(pts
@@ -13890,16 +13489,6 @@
 			(type default)
 		)
 		(uuid "7fce4e83-ff97-4a15-83f4-d14a1a007ff7")
-	)
-	(wire
-		(pts
-			(xy 195.58 313.69) (xy 195.58 314.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8012f373-dadb-486d-bd90-5bd078b7908f")
 	)
 	(wire
 		(pts
@@ -14343,16 +13932,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 321.31) (xy 133.35 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e4c4762-bf24-4e4f-8590-3fc5263316b9")
-	)
-	(wire
-		(pts
 			(xy 133.35 223.52) (xy 133.35 222.25)
 		)
 		(stroke
@@ -14483,16 +14062,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 320.04) (xy 134.62 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9b6283c-fc6b-450b-8e28-f9390487ba58")
-	)
-	(wire
-		(pts
 			(xy 92.71 195.58) (xy 101.6 195.58)
 		)
 		(stroke
@@ -14550,16 +14119,6 @@
 			(type default)
 		)
 		(uuid "aca705ae-007f-4638-9855-db02f37898a3")
-	)
-	(wire
-		(pts
-			(xy 198.12 323.85) (xy 195.58 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acb3aa72-1e13-46f5-8a3c-12d11bc70532")
 	)
 	(wire
 		(pts
@@ -14650,16 +14209,6 @@
 			(type default)
 		)
 		(uuid "b4001766-3a57-434f-900c-cd5d112c8441")
-	)
-	(wire
-		(pts
-			(xy 195.58 321.31) (xy 194.31 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b45af7ee-474c-4498-94b8-74b8ae386124")
 	)
 	(wire
 		(pts
@@ -14763,16 +14312,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 331.47) (xy 134.62 330.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcc88cab-83e4-4dac-b4b8-cf3f19f2d463")
-	)
-	(wire
-		(pts
 			(xy 508 215.9) (xy 497.84 215.9)
 		)
 		(stroke
@@ -14780,16 +14319,6 @@
 			(type default)
 		)
 		(uuid "bf39b714-1961-4567-adf1-ff9f508338d2")
-	)
-	(wire
-		(pts
-			(xy 137.16 323.85) (xy 134.62 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0596886-8295-4ad3-b155-4f6204c2c740")
 	)
 	(wire
 		(pts
@@ -14913,16 +14442,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 313.69) (xy 134.62 314.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf6fff5-769a-4c2e-97a6-0d5cd0ff48ef")
-	)
-	(wire
-		(pts
 			(xy 68.58 137.16) (xy 69.85 137.16)
 		)
 		(stroke
@@ -14960,26 +14479,6 @@
 			(type default)
 		)
 		(uuid "cc529266-6a2c-4302-b5cb-5a400fa90826")
-	)
-	(wire
-		(pts
-			(xy 195.58 323.85) (xy 195.58 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5b2ac0-a0c8-454c-88ed-856057ca1cb4")
-	)
-	(wire
-		(pts
-			(xy 194.31 331.47) (xy 195.58 331.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccfee6cc-91bf-49ef-ad9f-d624a37fed8e")
 	)
 	(wire
 		(pts
@@ -15463,16 +14962,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 313.69) (xy 195.58 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef70d084-9e1f-491c-86c1-4a2a1b5a7737")
-	)
-	(wire
-		(pts
 			(xy 382.27 97.79) (xy 341.63 97.79)
 		)
 		(stroke
@@ -15570,16 +15059,6 @@
 			(type default)
 		)
 		(uuid "f82c7890-e016-4175-af58-11b30ad9de6a")
-	)
-	(wire
-		(pts
-			(xy 134.62 321.31) (xy 133.35 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f83b6170-88b1-40f0-b243-8b5fa502d84f")
 	)
 	(wire
 		(pts
@@ -16479,6 +15958,30 @@
 			)
 		)
 	)
+	(global_label "L8_BUTTON"
+		(shape input)
+		(at 168.91 288.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "370a8f9f-6346-41ff-a672-737495e2d0e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.5229 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SDMMC1_D2"
 		(shape input)
 		(at 162.56 198.12 0)
@@ -16649,7 +16152,7 @@
 	)
 	(global_label "RX_STICK"
 		(shape input)
-		(at 198.12 313.69 0)
+		(at 184.15 313.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16659,7 +16162,7 @@
 		)
 		(uuid "441da883-c161-4774-9398-fd26b20fad0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.8051 313.69 0)
+			(at 199.8351 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16865,7 +16368,7 @@
 	)
 	(global_label "LX_STICK"
 		(shape input)
-		(at 137.16 313.69 0)
+		(at 123.19 313.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16875,7 +16378,7 @@
 		)
 		(uuid "5636ad9d-6480-4b90-bb76-41d12f589281")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.5147 313.69 0)
+			(at 137.5447 313.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16985,7 +16488,7 @@
 	)
 	(global_label "RY_STICK"
 		(shape input)
-		(at 198.12 323.85 0)
+		(at 184.15 323.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16995,7 +16498,7 @@
 		)
 		(uuid "59327fe1-f319-4cbd-b2e9-baddde8de025")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.6842 323.85 0)
+			(at 199.7142 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17220,6 +16723,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "L8_BUTTON"
+		(shape input)
+		(at 162.56 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7088d36d-6d80-4964-8e03-ae4e8ff6417b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.9471 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -17729,7 +17256,7 @@
 	)
 	(global_label "LY_STICK"
 		(shape input)
-		(at 137.16 323.85 0)
+		(at 123.19 323.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17739,7 +17266,7 @@
 		)
 		(uuid "906713a8-b09f-4d9f-a887-80d9516d61b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.3938 323.85 0)
+			(at 137.4238 323.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22069,97 +21596,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 173.99 283.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ce1b329-bb2e-4c55-82d9-3eeb98674068")
-		(property "Reference" "J3"
-			(at 176.53 281.9399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 176.53 284.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_ZH_B5B-ZR_1x05_P1.50mm_Vertical"
-			(at 173.99 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 173.99 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "9083f090-b075-43c7-adc7-a2304949753e")
-		)
-		(pin "1"
-			(uuid "de065281-8d48-4554-b94b-fd696c4f665a")
-		)
-		(pin "2"
-			(uuid "b8ecda8c-8b3e-48d6-a66f-dc34c16f5f4d")
-		)
-		(pin "5"
-			(uuid "5bc84718-2618-48ae-9020-1f529042d1c8")
-		)
-		(pin "3"
-			(uuid "7a6dc06c-222e-4de4-8802-5c19df6adeb2")
-		)
-		(instances
-			(project "robo-con-Wi-Fi-v2"
-				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 508 224.79 0)
 		(mirror y)
@@ -22394,6 +21830,100 @@
 			(project "robo-con-Wi-Fi-v2"
 				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 173.99 283.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30f80a1d-5610-4af5-89f1-11e350a86f00")
+		(property "Reference" "J10"
+			(at 176.53 283.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 176.53 285.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical"
+			(at 173.99 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 173.99 283.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "3eeb9ae9-0699-4bc8-8e2a-ae54f0d0c8db")
+		)
+		(pin "4"
+			(uuid "a3eab43e-57b6-4588-a8ed-7ae445c1f477")
+		)
+		(pin "2"
+			(uuid "d2cc7485-13b8-47f1-a460-457b19df154b")
+		)
+		(pin "5"
+			(uuid "ef98778f-17d1-4f53-858b-3aa2a7311b40")
+		)
+		(pin "1"
+			(uuid "16716e74-f5a7-4c7d-83c6-7bc1645e5064")
+		)
+		(pin "3"
+			(uuid "a4e01f0a-fc9b-4cb5-9b40-b564d65b7660")
+		)
+		(instances
+			(project "robo-con-Wi-Fi-v2"
+				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -23580,88 +23110,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 195.58 327.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "422d2256-265a-4c68-9438-746937de0a60")
-		(property "Reference" "R15"
-			(at 198.12 326.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 328.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 195.58 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 195.58 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0ffb2dbd-18e7-4282-9db1-0c86176d3ebd")
-		)
-		(pin "1"
-			(uuid "23fbea3f-83d0-4cf2-bc07-35fed9d1e068")
-		)
-		(instances
-			(project "robo-con-Wi-Fi-v2"
-				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 298.45 292.1 0)
 		(unit 1)
 		(body_style 1)
@@ -24290,88 +23738,6 @@
 			(project "robo-con-Wi-Fi-v2"
 				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 134.62 317.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b376643-ddb4-4036-9da3-0498ae26f851")
-		(property "Reference" "R13"
-			(at 137.16 316.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 137.16 318.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 134.62 317.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 317.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 134.62 317.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1e2ee059-3148-4968-aa0f-380300c04267")
-		)
-		(pin "1"
-			(uuid "0550e1e3-469d-4906-a74a-58787b5101f0")
-		)
-		(instances
-			(project "robo-con-Wi-Fi-v2"
-				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -26676,88 +26042,6 @@
 			(project "robo-con-Wi-Fi-v2"
 				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
 					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 134.62 327.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a5dd998-c948-4a1f-a13d-cbb1dc41ca9b")
-		(property "Reference" "R12"
-			(at 137.16 326.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 137.16 328.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 134.62 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 134.62 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b065d7e-7dd5-42e1-9b59-982063778d4a")
-		)
-		(pin "1"
-			(uuid "ee2f4e67-a607-449e-833a-f49ff87da7ac")
-		)
-		(instances
-			(project "robo-con-Wi-Fi-v2"
-				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -32186,88 +31470,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 195.58 317.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b153282d-5719-42a3-9a08-c4915c9ff712")
-		(property "Reference" "R14"
-			(at 198.12 316.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 198.12 318.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 195.58 317.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 317.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 195.58 317.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ac5ee3c7-40b3-451e-be50-51f8e97d423b")
-		)
-		(pin "1"
-			(uuid "bb9f67d5-7328-472c-8aea-372c88743fbd")
-		)
-		(instances
-			(project "robo-con-Wi-Fi-v2"
-				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 530.86 250.19 90)
 		(unit 1)
@@ -33523,84 +32725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 332.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3927a34-fe0f-46f7-8271-13000385c7a6")
-		(property "Reference" "#PWR096"
-			(at 133.35 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 337.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b6712ab4-6f8b-455c-bd79-1a1080fd5ba7")
-		)
-		(instances
-			(project "robo-con-Wi-Fi-v2"
-				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
-					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 245.11 284.48 0)
 		(unit 1)
@@ -34435,7 +33559,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 288.29 270)
+		(at 168.91 290.83 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -34447,7 +33571,7 @@
 		(fields_autoplaced yes)
 		(uuid "d799e7a0-4c3e-43bf-aad1-2100f11b9955")
 		(property "Reference" "#PWR0137"
-			(at 162.56 288.29 0)
+			(at 162.56 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34458,7 +33582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 288.2899 90)
+			(at 165.1 290.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34469,7 +33593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 288.29 0)
+			(at 168.91 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34480,7 +33604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 288.29 0)
+			(at 168.91 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34491,7 +33615,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 288.29 0)
+			(at 168.91 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37410,84 +36534,6 @@
 			(project "robo-con-Wi-Fi-v2"
 				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 194.31 332.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3cb09ea-1ed7-479b-9afe-eca7997f2317")
-		(property "Reference" "#PWR099"
-			(at 194.31 339.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 337.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 332.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2930e96-7ad2-4bd1-8bf5-888cfb4c056a")
-		)
-		(instances
-			(project "robo-con-Wi-Fi-v2"
-				(path "/e2cc1688-9d9f-412d-8b76-54554fdb9928"
-					(reference "#PWR099")
 					(unit 1)
 				)
 			)
