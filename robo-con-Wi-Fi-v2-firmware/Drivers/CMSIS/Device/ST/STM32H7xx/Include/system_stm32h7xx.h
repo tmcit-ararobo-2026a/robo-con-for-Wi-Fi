@@ -82,10 +82,10 @@ extern const  uint8_t D1CorePrescTable[16] ; /*!< D1CorePrescTable prescalers ta
   * @{
   */
 
-extern void SystemInit(void);
+extern void SystemInit(void) __attribute__((__section__(".text_flash")));
 extern void SystemCoreClockUpdate(void);
 #if defined(__GNUC__) && !defined(__ARMCC_VERSION)
-  extern void ExitRun0Mode(void) __attribute__((optimize("Os")));
+  extern void ExitRun0Mode(void) __attribute__((optimize("Os"), __section__(".text_flash")));
 #else
   extern void ExitRun0Mode(void);
 #endif /* __GNUC__ */

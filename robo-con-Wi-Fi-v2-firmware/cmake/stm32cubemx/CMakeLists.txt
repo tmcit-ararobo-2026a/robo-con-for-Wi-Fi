@@ -85,7 +85,7 @@ set(MX_Application_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Core/Src/stm32h7xx_hal_timebase_tim.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Core/Src/sysmem.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../../Core/Src/syscalls.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/../../startup_stm32h723xx.s
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../startup_stm32h723xx_ram.s
 )
 
 # STM32 HAL/LL Drivers
@@ -862,7 +862,10 @@ set(MX_LINK_DIRS
 set(MX_LINK_LIBS 
     STM32_Drivers
     ${TOOLCHAIN_LINK_LIBRARIES}
-    ThreadX	NetXDuo	Connectivity	
+    ThreadX
+	NetXDuo
+	Connectivity
+	
 )
 # Interface library for includes and symbols
 add_library(stm32cubemx INTERFACE)
