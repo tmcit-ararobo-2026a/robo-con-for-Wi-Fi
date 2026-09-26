@@ -30,17 +30,17 @@ extern "C" {
 #else
 #define __attribute__DTCM__
 #endif
-#define __attribute__RAM_D1__ __attribute__((__section__(".ram_d1_data")))
-#define __attribute__RAM_D2__ __attribute__((__section__(".ram_d2_data")))
-#define __attribute__RAM_D3__ __attribute__((__section__(".ram_d3_data")))
-#define __attribute__FLASH__  __attribute__((__section__(".text_flash")))
+#define __attribute__RAM_D1__ __attribute__((__section__(".data_ram1")))
+#define __attribute__RAM_D2__ __attribute__((__section__(".data_ram2")))
+#define __attribute__RAM_D3__ __attribute__((__section__(".data_ram3")))
+#define __attribute__FLASH__  __attribute__((__section__(".flash")))
 #ifdef USE_ITCM_SECTION
 #define __attribute__ITCM__ __attribute__((__section__(".itcm")))
 #else
 
 #define __attribute__ITCM__
 #endif
-#define __attribute__RAM_BackUp__ __attribute__((__section__(".ram_BackUp_data")))
+#define __attribute__RAM_BackUp__ __attribute__((__section__(".data_backup")))
 #else
 #define __attribute__DTCM__
 #define __attribute__RAM_D1__
