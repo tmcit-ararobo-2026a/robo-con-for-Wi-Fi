@@ -101,7 +101,8 @@ defined in linker script */
  * @retval : None
 */
 
-    .section  .text_flash.Reset_Handler
+    .section  .flash.__libc_init_array
+    .section  .flash.Reset_Handler
   .weak  Reset_Handler
   .type  Reset_Handler, %function
 Reset_Handler:
@@ -197,9 +198,13 @@ LoopFillZero:
 /*bss section END*/
 
 /* Call static constructors */
-    bl __libc_init_array
+    #bl __libc_init_array
+    ldr r0, =__libc_init_array
+    blx r0
 /* Call the application's entry point.*/
-    bl  main
+    #bl  main
+    ldr r0, =main
+    blx r0
 LoopForever:
     b LoopForever
 
@@ -212,7 +217,7 @@ LoopForever:
  * @param  None
  * @retval None
 */
-    .section  .text_flash.Default_Handler,"ax",%progbits
+    .section  .flash.Default_Handler,"ax",%progbits
 Default_Handler:
 Infinite_Loop:
   b  Infinite_Loop

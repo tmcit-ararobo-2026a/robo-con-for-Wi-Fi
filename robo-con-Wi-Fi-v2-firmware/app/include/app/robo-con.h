@@ -35,7 +35,7 @@ extern "C" {
 #define __attribute__RAM_D3__ __attribute__((__section__(".ram_d3_data")))
 #define __attribute__FLASH__  __attribute__((__section__(".text_flash")))
 #ifdef USE_ITCM_SECTION
-#define __attribute__ITCM__ __attribute__((__section__(".itcm_text")))
+#define __attribute__ITCM__ __attribute__((__section__(".itcm")))
 #else
 
 #define __attribute__ITCM__

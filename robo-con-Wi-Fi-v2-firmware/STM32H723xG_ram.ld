@@ -81,8 +81,8 @@ SECTIONS
   {
     . = ALIGN(4);
     _sitcm = .;
-    *(itcm)
-    *(itcm*)
+    *(.itcm)
+    *(.itcm*)
     . = ALIGN(4);
     _eitcm = .;
   } >ITCMRAM AT> FLASH
@@ -107,19 +107,25 @@ SECTIONS
 /*---------------------------------------- text END ----------------------------------------*/
 
 /*---------------------------------------- text_flash BEGIN ----------------------------------------*/
-  .text_flash :
+  .isr_vector :
   {
     . = ALIGN(4);
     KEEP(*(.isr_vector)) /* Startup code */
-    
-    *(text_flash)
-    *(text_flash*)
+    . = ALIGN(4);
+  } >FLASH
 
-    KEEP (*(.init))
-    KEEP (*(.fini))
+  .flash :
+  {
+    . = ALIGN(4);
+
+    *(.flash)
+    *(.flash*)
+
+    KEEP(*(.init))
+    KEEP(*(.fini))
 
     . = ALIGN(4);
-    _etext_flash = .;
+    _eflash = .;
   } >FLASH
 /*---------------------------------------- text_flash END ----------------------------------------*/
 
