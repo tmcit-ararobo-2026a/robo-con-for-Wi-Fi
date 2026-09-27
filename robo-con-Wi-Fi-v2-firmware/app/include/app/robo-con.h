@@ -21,26 +21,21 @@ extern "C" {
 
 /* defined */
 #define USE_SECTION
-// #define USE_DTCM_SECTION
-#define USE_ITCM_SECTION
+
+#define __at_section(section) __attribute__((__section__(section)))
 
 #ifdef USE_SECTION
-#ifdef USE_DTCM_SECTION
-#define __attribute__DTCM__ __attribute__((__section__(".data")))
-#else
-#define __attribute__DTCM__
-#endif
-#define __attribute__RAM_D1__ __attribute__((__section__(".data_ram1")))
-#define __attribute__RAM_D2__ __attribute__((__section__(".data_ram2")))
-#define __attribute__RAM_D3__ __attribute__((__section__(".data_ram3")))
-#define __attribute__FLASH__  __attribute__((__section__(".flash")))
-#ifdef USE_ITCM_SECTION
-#define __attribute__ITCM__ __attribute__((__section__(".itcm")))
-#else
-
-#define __attribute__ITCM__
-#endif
-#define __attribute__RAM_BackUp__ __attribute__((__section__(".data_backup")))
+#define __attribute__DTCM__         __at_section(".data")
+#define __attribute__DTCM__BSS__    __at_section(".tbss")
+#define __attribute__RAM_D1__       __at_section(".data_ram1")
+#define __attribute__RAM_D1__BSS__  __at_section(".tbss_ram1")
+#define __attribute__RAM_D2__       __at_section(".data_ram2")
+#define __attribute__RAM_D2__BSS__  __at_section(".tbss_ram2")
+#define __attribute__RAM_D3__       __at_section(".data_ram3")
+#define __attribute__RAM_D3__BSS__  __at_section(".tbss_ram3")
+#define __attribute__FLASH__        __at_section(".flash")
+#define __attribute__ITCM__         __at_section(".itcm")
+#define __attribute__RAM_BackUp__   __at_section(".data_backup")
 #else
 #define __attribute__DTCM__
 #define __attribute__RAM_D1__

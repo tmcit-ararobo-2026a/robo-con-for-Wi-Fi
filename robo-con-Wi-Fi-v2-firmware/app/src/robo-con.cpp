@@ -38,11 +38,11 @@
 #include "wifi_bt_if.h"
 //
 
-__attribute__RAM_D1__ static uint16_t ADC1_Buffer[3] = {1,2,3};
+__attribute__RAM_D2__BSS__ static uint16_t ADC1_Buffer[3];
 // IN8  LiPo
 // IN16 LY
 // IN17 LX
-__attribute__RAM_D1__ static uint16_t ADC2_Buffer[2];
+__attribute__RAM_D2__BSS__ static uint16_t ADC2_Buffer[2];
 // IN5 RY
 // IN9 RX
 
