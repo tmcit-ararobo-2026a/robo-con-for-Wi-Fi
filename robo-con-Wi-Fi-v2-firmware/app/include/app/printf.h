@@ -11,7 +11,7 @@
 #include "app_azure_rtos_config.h"
 #include "tx_api.h"
 
-__attribute__ITCM__ UINT cdc_init(VOID* memory_ptr);
+__attribute__FLASH__ UINT cdc_init(VOID* memory_ptr);
 
 __attribute__ITCM__ int _write(int file, char* ptr, int len);
 

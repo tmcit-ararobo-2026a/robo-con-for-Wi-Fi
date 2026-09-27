@@ -101,7 +101,6 @@ defined in linker script */
  * @retval : None
 */
 
-    .section  .flash.__libc_init_array
     .section  .flash.Reset_Handler
   .weak  Reset_Handler
   .type  Reset_Handler, %function

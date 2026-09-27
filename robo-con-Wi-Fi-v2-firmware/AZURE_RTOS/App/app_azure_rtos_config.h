@@ -52,6 +52,9 @@ extern "C" {
 #define NX_APP_MEM_POOL_SIZE                     12288
 
 /* USER CODE BEGIN EC */
+#define CDC_APP_MEM_POOL_SIZE                    2048
+
+#define ROBO_CON_APP_MEM_POOL_SIZE               2048
 
 /* USER CODE END EC */
 

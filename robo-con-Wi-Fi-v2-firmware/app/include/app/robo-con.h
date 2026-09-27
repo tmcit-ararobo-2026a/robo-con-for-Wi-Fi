@@ -51,9 +51,9 @@ extern "C" {
 #define __attribute__RAM_BackUp__
 #endif
 
-__attribute__ITCM__ UINT robo_con_init(VOID* memory_ptr);
 __attribute__ITCM__ void tim_lib(TIM_HandleTypeDef* htim);
-__attribute__ITCM__ void mcu_wake_led();
+__attribute__FLASH__ UINT robo_con_init(VOID* memory_ptr);
+__attribute__FLASH__ void mcu_wake_led();
 
 #define ROBO_CON_SUCCSES      0U
 #define ROBO_CON_POOLERROR    1U

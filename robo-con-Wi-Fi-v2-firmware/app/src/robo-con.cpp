@@ -68,6 +68,7 @@ __attribute__ITCM__ static void robo_con_thread(ULONG thred_input);
  * rx_buffer_pool_memory
  * tx_buffer_pool_memory
  * これバカ頭おかしい
+ * wifi_sta_dns_handle
  */
 
 UINT robo_con_init(VOID* memory_ptr)
@@ -104,6 +105,7 @@ UINT robo_con_init(VOID* memory_ptr)
 
     mcu_wake_led();
 
+    HAL_TIM_Base_Start_IT(&htim6);
     HAL_TIM_Base_Start_IT(&htim7);
 
     return ROBO_CON_SUCCSES;
@@ -145,8 +147,6 @@ void update_joystick(joystick_state_t& hjoystick)
     hjoystick.RX     = (uint8_t)ADC2_Buffer[1];
     hjoystick.RY     = (uint8_t)ADC2_Buffer[0];
     hjoystick.R_Push = HAL_GPIO_ReadPin(RP_STICK_GPIO_Port, RP_STICK_Pin);
-
-    return;
 }
 
 void update_LiPo_State(LiPo_state_e& hLiPo)
@@ -165,8 +165,6 @@ void update_LiPo_State(LiPo_state_e& hLiPo)
         hLiPo           = LITTLE;
         LiPo_Toggle_LED = true;
     }
-
-    return;
 }
 
 void update_button(button_state_t& hbutton)
@@ -179,8 +177,6 @@ void update_button(button_state_t& hbutton)
     hbutton.L6 = HAL_GPIO_ReadPin(L6_BUTTON_GPIO_Port, L6_BUTTON_Pin);
     hbutton.L7 = HAL_GPIO_ReadPin(L7_BUTTON_GPIO_Port, L7_BUTTON_Pin);
     hbutton.L8 = HAL_GPIO_ReadPin(L8_BUTTON_GPIO_Port, L8_BUTTON_Pin);
-
-    return;
 }
 
 void get_lever_pin(lever_pin_state_t& hlever_pin)
@@ -195,8 +191,6 @@ void get_lever_pin(lever_pin_state_t& hlever_pin)
     hlever_pin.L2 = HAL_GPIO_ReadPin(L2_LEVER_GPIO_Port, L2_LEVER_Pin);
     hlever_pin.L3 = HAL_GPIO_ReadPin(L3_LEVER_GPIO_Port, L3_LEVER_Pin);
     hlever_pin.L4 = HAL_GPIO_ReadPin(L4_LEVER_GPIO_Port, L4_LEVER_Pin);
-
-    return;
 }
 
 void update_lever(lever_state_t& hlever)
@@ -239,8 +233,6 @@ void update_lever(lever_state_t& hlever)
     } else {
         hlever.Right = LeverPosition::FRONT;
     }
-
-    return;
 }
 
 void mcu_wake_led()
@@ -276,8 +268,6 @@ void mcu_wake_led()
     HAL_Delay(100);
     HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_RESET);
     HAL_Delay(100);
-
-    return;
 }
 
 extern "C" {
@@ -291,7 +281,5 @@ void tim_lib(TIM_HandleTypeDef* htim)
 
     // 100Hz
     if (htim == &htim7) {}
-
-    return;
 }
 }

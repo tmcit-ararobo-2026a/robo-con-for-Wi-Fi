@@ -29,6 +29,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "main.h"
+#include "app/printf.h"
 
 /* USER CODE END Includes */
 
@@ -68,6 +70,11 @@ static TX_BYTE_POOL nx_app_byte_pool;
 #endif
 
 /* USER CODE BEGIN PV */
+__ALIGN_BEGIN static UCHAR cdc_byte_pool_buffer[CDC_APP_MEM_POOL_SIZE] __ALIGN_END;
+static TX_BYTE_POOL cdc_app_byte_pool;
+
+__ALIGN_BEGIN static UCHAR robo_con_byte_pool_buffer[ROBO_CON_APP_MEM_POOL_SIZE] __ALIGN_END;
+static TX_BYTE_POOL robo_con_app_byte_pool;
 
 /* USER CODE END PV */
 
@@ -143,6 +150,47 @@ VOID tx_application_define(VOID *first_unused_memory)
     }
 
     /* USER CODE BEGIN MX_NetXDuo_Init_Success */
+    
+    if(tx_byte_pool_create(&cdc_app_byte_pool, "CDC App memory pool", cdc_byte_pool_buffer, CDC_APP_MEM_POOL_SIZE) != TX_SUCCESS)
+    {
+      // Error
+    }
+    else
+    {
+      __enable_irq();
+
+      memory_ptr = (VOID *)&cdc_app_byte_pool;
+      status = cdc_init(memory_ptr);
+      if(status != CDC_SUCCSES)
+      {
+        // Error
+        while(1)
+        {
+        }
+      }
+    }
+    
+    /*-USER CODE BEGIN ROBO_CON */
+    if(tx_byte_pool_create(&robo_con_app_byte_pool,"robo-con App memory pool", robo_con_byte_pool_buffer, ROBO_CON_APP_MEM_POOL_SIZE) != TX_SUCCESS)
+    {
+      // Error
+    }
+    else
+    {
+      __enable_irq();
+
+      memory_ptr = (VOID *)&robo_con_app_byte_pool;
+      status = robo_con_init(memory_ptr);
+      if(status != ROBO_CON_SUCCSES)
+      {
+        // Error
+        while(1)
+        {
+        }
+      }
+    }
+    /*-USER CODE END ROBO_CON */
+
 
     /* USER CODE END MX_NetXDuo_Init_Success */
 
