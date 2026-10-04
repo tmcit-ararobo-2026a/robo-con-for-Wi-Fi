@@ -10011,10 +10011,6 @@
 		(uuid "96628083-d798-4ee6-8dda-2198a5f7ca5d")
 	)
 	(no_connect
-		(at 147.32 154.94)
-		(uuid "9946a09a-6ba2-447c-bfb2-d40eb8b7f493")
-	)
-	(no_connect
 		(at 525.78 265.43)
 		(uuid "9cb359c6-d219-40d2-b579-1aeb4bddef66")
 	)
@@ -10041,10 +10037,6 @@
 	(no_connect
 		(at 353.06 283.21)
 		(uuid "be340a87-d135-446f-a469-5af91c8196cc")
-	)
-	(no_connect
-		(at 147.32 104.14)
-		(uuid "c52bbbc3-6761-4efc-aa8b-56ae7b511163")
 	)
 	(no_connect
 		(at 525.78 289.56)
@@ -14392,7 +14384,7 @@
 	)
 	(global_label "LED1"
 		(shape input)
-		(at 172.72 134.62 0)
+		(at 147.32 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14402,7 +14394,7 @@
 		)
 		(uuid "46fdc289-cd51-4329-a426-1daa1d469b2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.3618 134.62 0)
+			(at 156.2318 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14560,17 +14552,17 @@
 	)
 	(global_label "LEDWLRX"
 		(shape input)
-		(at 172.72 151.13 0)
+		(at 111.76 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4d1a961c-bdc1-4d16-93ab-999dadcaa1a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.3618 151.13 0)
+			(at 104.1182 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14578,7 +14570,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -15520,17 +15512,17 @@
 	)
 	(global_label "LEDLiPo"
 		(shape input)
-		(at 187.96 115.57 180)
+		(at 147.32 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9659fd33-4bdc-492b-89ff-21770b560497")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.4758 115.57 0)
+			(at 157.8042 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15538,7 +15530,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -15736,17 +15728,17 @@
 	)
 	(global_label "LEDWLTX"
 		(shape input)
-		(at 172.72 153.67 0)
+		(at 111.76 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a2d4f8c3-a385-4e66-8770-264cd18e70f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.3618 153.67 0)
+			(at 104.1182 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15754,7 +15746,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -15880,7 +15872,7 @@
 	)
 	(global_label "LEDUSB"
 		(shape input)
-		(at 172.72 142.24 0)
+		(at 147.32 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15890,7 +15882,7 @@
 		)
 		(uuid "bf8c85b4-7c30-452f-bb49-3551a4f80051")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.9623 142.24 0)
+			(at 157.5623 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16144,17 +16136,17 @@
 	)
 	(global_label "LEDWL"
 		(shape input)
-		(at 172.72 139.7 0)
+		(at 111.76 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d6ed3cdb-687c-43b2-a761-8a962ddec967")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.6318 139.7 0)
+			(at 104.1182 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16162,13 +16154,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "LED0"
 		(shape input)
-		(at 172.72 132.08 0)
+		(at 147.32 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16178,7 +16170,7 @@
 		)
 		(uuid "d83f5e5a-72a8-4ee7-a4ad-bcbcbd3e1ab7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.3618 132.08 0)
+			(at 154.9618 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16696,17 +16688,17 @@
 	)
 	(global_label "LED2"
 		(shape input)
-		(at 172.72 137.16 0)
+		(at 111.76 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fff9c626-091f-4e1f-b564-f641cda85669")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.3618 137.16 0)
+			(at 104.1182 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16714,7 +16706,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
