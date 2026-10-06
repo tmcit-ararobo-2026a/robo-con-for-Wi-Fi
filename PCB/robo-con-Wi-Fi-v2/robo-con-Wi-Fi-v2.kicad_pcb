@@ -22684,7 +22684,7 @@
 		(descr "Wire Pad, Square, SMD Pad,  1.5mm x 3mm")
 		(tags "MeasurementPoint Square SMDPad 1.5mmx3mm ")
 		(property "Reference" "J4"
-			(at -1.937473 -1.202082 -135)
+			(at -1.937473 -1.202082 225)
 			(layer "B.SilkS")
 			(uuid "a1498fd7-8524-49cd-9f03-6ea569f82547")
 			(effects
