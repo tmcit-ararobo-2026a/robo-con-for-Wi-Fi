@@ -1,9 +1,3 @@
-[submodule "robo-con-Wi-Fi-firmware/robo-con-for-Wi-Fi-submodule"]
-	path = robo-con-Wi-Fi-firmware/robo-con-for-Wi-Fi-submodule
-	url = https://github.com/tmcit-ararobo-2026a/robo-con-for-Wi-Fi-submodule
-[submodule "robo-con-Wi-Fi-firmware/Middlewares"]
-	path = robo-con-Wi-Fi-firmware/Middlewares
-	url = https://github.com/tmcit-ararobo-2026a/Middlewares
 [submodule "robo-con-Wi-Fi-v2-firmware/Middlewares"]
 	path = robo-con-Wi-Fi-v2-firmware/Middlewares
 	url = https://github.com/tmcit-ararobo-2026a/Middlewares
