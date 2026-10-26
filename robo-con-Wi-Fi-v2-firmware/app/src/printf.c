@@ -54,7 +54,6 @@ UINT cdc_init(VOID* memory_ptr)
     }
 
     HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_SET);
-    HAL_Delay(3000);
     HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_RESET);
 
     return CDC_SUCCSES;

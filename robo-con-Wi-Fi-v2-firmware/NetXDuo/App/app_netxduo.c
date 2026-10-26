@@ -176,22 +176,22 @@ UINT MX_NetXDuo_Init(VOID *memory_ptr)
   /* USER CODE BEGIN MX_NetXDuo_Init */
 
     /* Allocate the main thread pool. */
-    ret = tx_byte_allocate(byte_pool, (VOID**)&pointer, 2 * DEFAULT_MEMORY_SIZE, TX_NO_WAIT);
-    
-    if (ret != TX_SUCCESS)
-    {
-        return NX_NOT_ENABLED;
-    }
-
-    /* Create the main thread */
-    ret = tx_thread_create(&AppMainThread, "App Main thread", application_start, 0, pointer,
-                           2 * DEFAULT_MEMORY_SIZE,
-                           DEFAULT_PRIORITY, DEFAULT_PRIORITY, TX_NO_TIME_SLICE, TX_AUTO_START);
-
-    if (ret != TX_SUCCESS)
-    {
-        return NX_NOT_ENABLED;
-    }
+    //ret = tx_byte_allocate(byte_pool, (VOID**)&pointer, 2 * DEFAULT_MEMORY_SIZE, TX_NO_WAIT);
+    //
+    //if (ret != TX_SUCCESS)
+    //{
+    //    return NX_NOT_ENABLED;
+    //}
+//
+    ///* Create the main thread */
+    //ret = tx_thread_create(&AppMainThread, "App Main thread", application_start, 0, pointer,
+    //                       2 * DEFAULT_MEMORY_SIZE,
+    //                       DEFAULT_PRIORITY, DEFAULT_PRIORITY, TX_NO_TIME_SLICE, TX_AUTO_START);
+//
+    //if (ret != TX_SUCCESS)
+    //{
+    //    return NX_NOT_ENABLED;
+    //}
 
   /* USER CODE END MX_NetXDuo_Init */
 
