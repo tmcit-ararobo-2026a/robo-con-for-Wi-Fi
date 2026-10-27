@@ -86,6 +86,7 @@ int _write(int file, char* ptr, int len)
 
     Buffer_len += len;
     CDC_Tramsmit_request = true;
+    Buffer_len = 0;
 
     return len;
 }

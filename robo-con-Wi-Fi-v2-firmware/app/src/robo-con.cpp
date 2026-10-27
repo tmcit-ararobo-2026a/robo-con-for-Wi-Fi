@@ -118,7 +118,7 @@ static void robo_con_thread(ULONG thred_input)
     while (1) {
         __enable_irq();
 
-        if (tick_count >= 10) {
+        if (tick_count >= 100) {
             HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
             tick_count = 0;
         }
