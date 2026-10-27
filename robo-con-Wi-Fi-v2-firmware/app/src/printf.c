@@ -53,8 +53,8 @@ UINT cdc_init(VOID* memory_ptr)
         return CDC_THREAD_ERROR;
     }
 
-    HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_SET);
     HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_SET);
 
     return CDC_SUCCSES;
 }

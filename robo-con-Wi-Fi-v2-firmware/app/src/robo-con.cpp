@@ -26,7 +26,6 @@
 //
 #include "adc.h"
 #include "dma.h"
-#include "sdmmc.h"
 #include "tim.h"
 #include "usart.h"
 //
@@ -190,17 +189,6 @@ void update_button_f(up_senter_side_button_t& hbutton_f)
 
 void mcu_wake_led()
 {
-    HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_SET);
-    HAL_Delay(100);
-    HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
-    HAL_Delay(100);
-    HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
-    HAL_Delay(100);
-    HAL_GPIO_WritePin(LEDWL_GPIO_Port, LEDWL_Pin, GPIO_PIN_SET);
-    HAL_Delay(100);
-    HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_SET);
-    HAL_Delay(100);
-
     HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_RESET);
     HAL_Delay(100);
     HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_RESET);
@@ -211,6 +199,17 @@ void mcu_wake_led()
     HAL_Delay(100);
     HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_RESET);
     HAL_Delay(100);
+
+    HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_SET);
+    HAL_Delay(100);
+    HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+    HAL_Delay(100);
+    HAL_GPIO_WritePin(LED2_GPIO_Port, LED2_Pin, GPIO_PIN_SET);
+    HAL_Delay(100);
+    HAL_GPIO_WritePin(LEDWL_GPIO_Port, LEDWL_Pin, GPIO_PIN_SET);
+    HAL_Delay(100);
+    HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_SET);
+
 }
 
 extern "C" {
