@@ -8,11 +8,10 @@
 //
 #include "app/robo-con.h"
 
-
 #define USB_TX_BUFFER_SIZE 1024U * 8U
-__attribute__DTCM__ static uint8_t TX_Buffer[USB_TX_BUFFER_SIZE] = {0};
-__attribute__DTCM__ static uint8_t RX_Buffer[2048]  = {0};
-__attribute__DTCM__ static uint16_t Buffer_len      = {0};
+__attribute__RAM_D1__BSS__ static uint8_t TX_Buffer[USB_TX_BUFFER_SIZE];
+__attribute__DTCM__ static uint8_t RX_Buffer[2048];
+__attribute__DTCM__ static uint16_t Buffer_len;
 __attribute__DTCM__ bool CDC_Tramsmit_request = false;
 
 __attribute__DTCM__ static TX_THREAD CDC_Thread;
@@ -26,13 +25,17 @@ __attribute__ITCM__ static void CDC_thread(ULONG thred_input);
 #define CDC_APP_THREAD_AUTO_START           TX_AUTO_START
 #define CDC_APP_THREAD_DONT_START           TX_DONT_START
 
+#define CDC_MAX_TRANSPORT_SIZE 512
+#define CDC_TRANSPORT_SPEED    115200
+
 UINT cdc_init(VOID* memory_ptr)
 {
     TX_BYTE_POOL* byte_pool = (TX_BYTE_POOL*)memory_ptr;
 
     CHAR* pointer;
 
-    if (tx_byte_allocate(byte_pool, (VOID**)&pointer, CDC_APP_STACK_SIZE, TX_NO_WAIT) != TX_SUCCESS) {
+    if (tx_byte_allocate(byte_pool, (VOID**)&pointer, CDC_APP_STACK_SIZE, TX_NO_WAIT) !=
+        TX_SUCCESS) {
         printf("cdc pool allocate error\r\n");
         return CDC_POOLERROR;
     }
@@ -53,9 +56,6 @@ UINT cdc_init(VOID* memory_ptr)
         return CDC_THREAD_ERROR;
     }
 
-    HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_RESET);
-    HAL_GPIO_WritePin(LEDUSB_GPIO_Port, LEDUSB_Pin, GPIO_PIN_SET);
-
     return CDC_SUCCSES;
 }
 
@@ -67,26 +67,36 @@ static void CDC_thread(ULONG thred_input)
         HAL_GPIO_TogglePin(LEDUSB_GPIO_Port, LEDUSB_Pin);
 
         if (CDC_Tramsmit_request) {
-
             CDC_Tramsmit_request = false;
         }
 
-        tx_thread_sleep(100);
+        tx_thread_sleep(50);
     };
 }
 
 int _write(int file, char* ptr, int len)
 {
     uint16_t llen;
-    if((Buffer_len + len) > USB_TX_BUFFER_SIZE){}
+    static uint16_t size;
+    size = Buffer_len + len;
 
-    for(uint16_t i = 0;i < len;i++){
-        TX_Buffer[len + Buffer_len] = ptr[len];
+    if (size > USB_TX_BUFFER_SIZE) {
+        Buffer_len = 0;
+        static uint8_t rest;
+        rest = size - USB_TX_BUFFER_SIZE;
+
+        for (uint16_t i = 0; i < rest; i++) {
+            TX_Buffer[i] = ptr[i + rest];
+        }
+    }
+
+    for (uint16_t i = 0; i < len; i++) {
+        TX_Buffer[i + Buffer_len] = ptr[len];
     }
 
     Buffer_len += len;
     CDC_Tramsmit_request = true;
-    Buffer_len = 0;
+    Buffer_len           = 0;
 
     return len;
 }
